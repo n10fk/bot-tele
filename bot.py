@@ -2,10 +2,6 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, CallbackContext
 import hashlib
 
-# ============================== BOT DEPLOY =====================================
-# ======================= https://t.me/chessvslbot ==============================
-# ===============================================================================
-
 def readData():
     data = ""
     with open("data.txt", 'r') as f:
